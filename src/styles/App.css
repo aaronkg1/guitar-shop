@@ -88,4 +88,25 @@ select {
   background-image: url(../assets/guitar-on-amp.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(128, 128, 128, 0.232);
+  padding: 15rem;
+}
+
+.welcome-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: aqua;
+  font-size: 2rem;
 }

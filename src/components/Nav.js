@@ -24,7 +24,7 @@ const Nav = () => {
   const displayNumber = calculateItemsTotal();
   return (
     <nav className="nav-bar">
-      <h3 className="nav-logo">Aaron's Axe's</h3>
+      <h3 className="nav-logo">Aaron's Axes</h3>
       <ul className="nav-links">
         <Link to="/">
           <li>Home</li>
