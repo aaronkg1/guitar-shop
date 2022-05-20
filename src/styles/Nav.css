@@ -1,0 +1,58 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  padding-right: 30px;
+}
+
+.nav-logo {
+  padding-left: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-right: 30px;
+  font-size: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.basket-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping-cart {
+  position: relative;
+  font-size: 3rem;
+}
+
+.basket-size-icon {
+  background-color: rgba(250, 128, 114, 0.785);
+  width: 1.3rem;
+  height: 1.3rem;
+  max-width: fit-content;
+  max-width: fit-content;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20%;
+  text-align: center;
+  padding: 15px;
+  right: -70px;
+  top: -15px;
+  z-index: 10;
+}

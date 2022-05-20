@@ -1,0 +1,38 @@
+.shop-thumbnail {
+  width: 10rem;
+}
+
+.shop-list {
+  padding: 2rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+
+.product-thumbnail-link {
+  text-decoration: none;
+  color: black;
+}
+
+.product-thumbnail-link,
+.product-thumbnail {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.product-thumbnail {
+  border: solid black 1px;
+  padding: 2rem;
+}
+
+.quantity-input {
+  width: 70px;
+  text-align: center;
+  margin: 0;
+  -webkit-appearance: none;
+}

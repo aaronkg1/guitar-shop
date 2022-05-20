@@ -1,0 +1,30 @@
+.item-container {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.add-to-basket,
+.remove-from-basket {
+  font-size: 3rem;
+  color: green;
+  cursor: pointer;
+}
+
+.remove-from-basket {
+  color: red;
+}
+
+.basket-modifier {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 2rem;
+}
+
+.item-display-image {
+  max-width: 60%;
+}
