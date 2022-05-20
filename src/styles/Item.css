@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  padding: 0px 5rem 2rem 5rem;
 }
 
 .add-to-basket,
