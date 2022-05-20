@@ -121,7 +121,7 @@ const RouteSwitch = () => {
   );
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
       <ShopContext.Provider value={shopValue}>
         <BasketContext.Provider value={basketValue}>
           <Nav></Nav>
