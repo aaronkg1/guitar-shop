@@ -1,6 +1,6 @@
 .item-container {
   position: relative;
-  top: 100px;
+  top: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,4 +28,26 @@
 
 .item-display-image {
   max-width: 60%;
+}
+
+@media (max-width: 768px) {
+  .item-container {
+    gap: 10px;
+    font-size: 0.8rem;
+  }
+  .add-to-basket,
+  .remove-from-basket {
+    font-size: 2rem;
+    color: green;
+    cursor: pointer;
+  }
+  .basket-modifier {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+  }
+  .item-display-image {
+    max-width: 60%;
+  }
 }
