@@ -27,7 +27,7 @@ const Shop = () => {
     setShoppingCart(shoppingCartCopy);
   };
   return (
-    <div>
+    <div className="shop-container">
       <ul className="shop-list">
         {shopItems.map((item) => {
           return (

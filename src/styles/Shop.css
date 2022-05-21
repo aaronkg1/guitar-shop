@@ -1,6 +1,10 @@
 .shop-thumbnail {
   width: 10rem;
 }
+.shop-container {
+  position: relative;
+  top: 10vh;
+}
 
 .shop-list {
   padding: 2rem;
@@ -35,4 +39,31 @@
   text-align: center;
   margin: 0;
   -webkit-appearance: none;
+}
+
+@media (max-width: 768px) {
+  .shop-thumbnail {
+    width: 5rem;
+  }
+  .shop-list {
+    padding: 2rem;
+    list-style: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .product-thumbnail {
+    border: solid black 1px;
+    padding: 1rem;
+  }
+  .shop-container h3 {
+    max-width: 100vw;
+    font-size: 0.6rem;
+  }
+  .shop-container p {
+    font-size: 0.6rem;
+  }
+  .quantity-input {
+    font-size: 0.6rem;
+    width: 50px;
+  }
 }
