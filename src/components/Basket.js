@@ -63,7 +63,9 @@ const Basket = () => {
               return (
                 <tr key={item.id}>
                   <td>
-                    <Link to={`/shop/${item.id}`}>{item.title}</Link>
+                    <Link className="item-title" to={`/shop/${item.id}`}>
+                      {item.title}
+                    </Link>
                   </td>
                   <td>
                     <Link to={`/shop/${item.id}`}>
@@ -80,6 +82,8 @@ const Basket = () => {
                     <input
                       className="quantity-box"
                       type="number"
+                      min="0"
+                      max="10"
                       value={item.quantity}
                       onChange={(e) => {
                         updateQuantity(item, e);

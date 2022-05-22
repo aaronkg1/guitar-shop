@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/guitar-shop/static/css/main.da7ce27f.css",
+    "main.css": "/guitar-shop/static/css/main.eef457c7.css",
     "main.js": "/guitar-shop/static/js/main.b3bf8d25.js",
     "static/media/guitar-on-amp.jpg": "/guitar-shop/static/media/guitar-on-amp.962b0898d573e20b7db1.jpg",
     "index.html": "/guitar-shop/index.html",
-    "main.da7ce27f.css.map": "/guitar-shop/static/css/main.da7ce27f.css.map",
+    "main.eef457c7.css.map": "/guitar-shop/static/css/main.eef457c7.css.map",
     "main.b3bf8d25.js.map": "/guitar-shop/static/js/main.b3bf8d25.js.map"
   },
   "entrypoints": [
-    "static/css/main.da7ce27f.css",
+    "static/css/main.eef457c7.css",
     "static/js/main.b3bf8d25.js"
   ]
 }

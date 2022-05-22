@@ -67,3 +67,30 @@ td {
   text-decoration: none;
   color: rgb(184, 184, 184);
 }
+
+@media (max-width: 768px) {
+  td {
+    text-align: center;
+    padding: 5px 0 5px 0;
+  }
+  .item-image {
+    min-width: 4rem;
+    border: solid black 1px;
+  }
+  .table-foot {
+    margin-top: 5px;
+    border-top: black solid 1px;
+  }
+  .quantity-box {
+    width: 40px;
+  }
+  td {
+    font-size: 0.8rem;
+  }
+  .item-title {
+    font-size: 0.6rem;
+  }
+  thead {
+    font-size: 0.8rem;
+  }
+}

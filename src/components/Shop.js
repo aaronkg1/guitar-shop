@@ -42,6 +42,7 @@ const Shop = () => {
               <input
                 type="number"
                 min="0"
+                max="10"
                 value={itemQuantityInBasket(item)}
                 onChange={(e) => {
                   updateBasket(item, e);
