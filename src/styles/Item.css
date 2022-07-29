@@ -38,8 +38,6 @@
   .add-to-basket,
   .remove-from-basket {
     font-size: 2rem;
-    color: green;
-    cursor: pointer;
   }
   .basket-modifier {
     display: flex;
